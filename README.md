@@ -43,8 +43,9 @@ analog-clock/
 
 ## Usage
 
-1. Ensure that you already have an installed web browser (Chrome, Firefox, etc.) on your device.
+1. Make sure you have a web browser (such as Chrome, Firefox, etc.) installed on your device. If not, please install one.
 2. Simply open <a href="https://atia-farha.github.io/analog-clock/" target="_blank">this link</a>
+3. Enjoy the analog clock with real-time updates, digital display, and timezone information.
 
 ## Reporting Issues
 
