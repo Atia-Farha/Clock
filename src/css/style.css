@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Arial, sans-serif;
+    background-color: rgb(25, 25, 25);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5em;
+    min-height: 100vh;
+}
+
+.greeting {
+    color: rgb(169, 83, 255);
+    font-size: clamp(1.5em, 5vw, 2em);
+    padding: 0.5em;
+}
+
+#datetime {
+    font-size: clamp(0px, 7vw, 20px);
+}
+
+.time-info {
+	flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 0 0 90px rgba(146, 0, 225, 0.85);
+    margin-bottom: 5.5em;
+}
+
+.clock::after {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background-color: rgba(146, 0, 225, 1);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: bottom;
+    transform: translateX(-50%);
+    border-radius: 5px 5px 0 0;
+}
+
+.hour {
+    width: 5px;
+    height: 40px;
+    background-color: rgba(146, 0, 225, 0.5)
+}
+
+.minute {
+    width: 3.4px;
+    height: 70px;
+    background-color: rgba(146, 0, 225, 0.5)
+}
+
+.second {
+    width: 1.5px;
+    height: 70px;
+    background: rgba(146, 0, 225, 0.85);
+}
+
+.digitalTime {
+    font-size: 2.2rem;
+    color: rgb(169, 83, 255);
+}
+
+#timezone {
+    font-size: 14px;
+    color: #444444;
+    align-items: flex-end;
+    margin-bottom: 3.5em;
+}

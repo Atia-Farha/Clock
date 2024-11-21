@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:title" content="Analog Clock">
+    <meta property="og:description"
+        content="Check out this sleek and minimalistic analog clock! | © Designed and developed by Atia Farha">
+    <meta property="og:image" content="./assets/preview.png">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <script src="./src/js/script.js" defer></script>
+</head>
+
+<body>
+  <div class="greeting">
+    <p><b>Happy <span id="day"></span>!</b></p>
+    <p id="datetime"></p>
+  </div>
+
+  <div class="time-info">
+    <div class="clock">
+      <div class="hand hour" id="hour"></div>
+      <div class="hand minute" id="minute"></div>
+      <div class="hand second" id="second"></div>
+    </div>
+
+    <div class="digitalTime" id="digitalTime"></div>
+    
+    <p id="timezone"></p>
+  </div>
+</body>
+
+</html>
