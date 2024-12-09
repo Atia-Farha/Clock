@@ -1,6 +1,6 @@
-# Analog Clock Website
+# Clock Website
 
-A sleek and modern analog clock website featuring both analog and digital displays, with timezone and date information. The clock dynamically updates in real time, making it a functional and elegantly designed clock that provides a seamless experience for users.
+A sleek and modern clock website featuring both analog and digital displays, with timezone and date information. The clock dynamically updates in real time, making it a functional and elegantly designed clock that provides a seamless experience for users.
 
 ## Table of Contents
 
