@@ -13,7 +13,7 @@ A sleek and modern clock website featuring both analog and digital displays, wit
 ## Project Structure
 
 ```plaintext
-analog-clock/
+clock/
 ├── index.html              # Main HTML file
 ├── src/                    # Source code directory
 │   ├── css/                # Directory for stylesheets
