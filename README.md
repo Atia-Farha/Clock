@@ -51,5 +51,5 @@ clock/
 
 If you encounter any bugs or have suggestions for improvement, please report them in the <a href="https://github.com/Atia-Farha/clock/issues" target="_blank">Issues</a> section of this GitHub repository. I will address them promptly.
 
-
+---
 <p align="center">© Designed and developed by <a href="https://github.com/Atia-Farha" target="_blank">Atia Farha</a> | ALL RIGHTS RESERVED</p>
